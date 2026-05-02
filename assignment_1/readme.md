@@ -99,7 +99,8 @@ Q12 Answer: Success => this Delayed for 3 seconds
 ## 👨‍💻 Author
 
 **Abdallah Mohamed**
-Frontend Developer | Software Engineering Student
+Backen Nodejs
+| Software Engineering Student
 
 ---
 
