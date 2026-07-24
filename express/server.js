@@ -30,11 +30,9 @@ function generateId(users) {
 }
 
 // ---------- Routes ----------
-// NOTE: routes like /user/getByName and /user/filter must be declared
-// BEFORE /user/:id, otherwise express will treat "getByName"/"filter"
-// as an :id value.
 
-// 1) POST /user -> add a new user (check email doesn't already exist)
+
+// 1) POST /user -> add a new user 
 app.post("/user", (req, res) => {
   const { name, age, email } = req.body;
 
@@ -62,7 +60,7 @@ app.post("/user", (req, res) => {
   res.status(201).json({ message: "User added successfully", user: newUser });
 });
 
-// 6) GET /user/filter -> filter users by minimum age (?minAge=)
+// 6) GET /user/filter -> filter users by minimum age 
 app.get("/user/filter", (req, res) => {
   const { minAge } = req.query;
 
@@ -100,7 +98,7 @@ app.get("/user", (req, res) => {
   res.status(200).json(users);
 });
 
-// 3) DELETE /user  or  DELETE /user/:id -> delete user by id (body or params)
+// 3) DELETE /user  or  DELETE /user/:id -> delete user by id 
 app.delete("/user/:id?", (req, res) => {
   const id = req.params.id || req.body.id;
 
