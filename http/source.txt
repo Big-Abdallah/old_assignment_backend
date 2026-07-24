@@ -1,0 +1,5 @@
+Node.js streams allow processing data piece by piece instead of loading the whole file into memory.
+
+Streams are useful when working with large files because they improve performance and reduce memory usage.
+
+This file is used to demonstrate copying data using readable and writable streams.

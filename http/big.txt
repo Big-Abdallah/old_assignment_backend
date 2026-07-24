@@ -1,0 +1,15 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Node.js uses streams to efficiently process large files.
+
+Reading a file chunk by chunk helps reduce memory usage and improves performance.
+
+This text is repeated several times to simulate a large file.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Node.js is built on Google's V8 JavaScript Engine.
+Streams are one of the most powerful features in Node.js.
+Learning Node.js internals helps developers write efficient applications.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Node.js uses the Event Loop and libuv to handle asynchronous operations.

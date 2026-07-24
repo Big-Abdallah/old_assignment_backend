@@ -1,0 +1,10 @@
+This file is used to demonstrate file compression using Node.js.
+
+The pipeline API connects multiple streams together.
+
+In this example:
+- ReadStream reads the source file.
+- Gzip compresses the content.
+- WriteStream writes the compressed output into data.txt.gz.
+
+Node.js makes working with streams simple and efficient.

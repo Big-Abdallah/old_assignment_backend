@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "firstName": "Ahmed",
+    "lastName": "Ali",
+    "username": "ahmedali",
+    "email": "ahmed.ali@example.com",
+    "phone": "01012345678",
+    "age": 22
+  },
+  {
+    "id": 2,
+    "firstName": "Mariam",
+    "lastName": "Hassan",
+    "username": "mariamh",
+    "email": "mariam.hassan@example.com",
+    "phone": "01123456789",
+    "age": 20
+  },
+  {
+    "id": 3,
+    "firstName": "Omar",
+    "lastName": "Mahmoud",
+    "username": "omarmahmoud",
+    "email": "omar.mahmoud@example.com",
+    "phone": "01234567890",
+    "age": 25
+  },
+  {
+    "id": 4,
+    "firstName": "Sara",
+    "lastName": "Mostafa",
+    "username": "saram",
+    "email": "sara.mostafa@example.com",
+    "phone": "01512345678",
+    "age": 23
+  },
+  {
+    "id": 5,
+    "firstName": "Youssef",
+    "lastName": "Adel",
+    "username": "youssefa",
+    "email": "youssef.adel@example.com",
+    "phone": "01087654321",
+    "age": 21
+  }
+]
